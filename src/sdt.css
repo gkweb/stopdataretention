@@ -1,4 +1,5 @@
 .topen body {overflow-y: hidden;overflow-x: hidden;}
+
 .sdt-main {position: fixed; top: 0; bottom:0; left: 0;max-width:147px;}
 
 .sdt-content {}
@@ -100,6 +101,7 @@
 
 /* ===== Recording animation ====== */
 body .sdt-modal {overflow-y: scroll; overflow-x: auto; display: none; position: fixed; top: 0; bottom: 0; left: 0; right: 0; z-index: 9999; background: #000;}
+
 body .sdt-modal .sdt-inner {
   margin-top: 0;
 -webkit-transition: all 0.8s ease-in-out;
