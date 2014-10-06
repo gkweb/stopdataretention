@@ -106,7 +106,6 @@
 
 /* ===== Recording animation ====== */
 .sdt-modal {overflow-x: auto;display: none; position: fixed; top: 0; bottom: 0; left: 0; right: 0; z-index: 9999; background: #000;}
-
 body .sdt-modal .sdt-inner {
   margin-top: 0;
 -webkit-transition: all 0.8s ease-in-out;
@@ -114,16 +113,9 @@ body .sdt-modal .sdt-inner {
 -ms-transition: all 0.8s ease-in-out;
 -o-transition: all 0.8s ease-in-out;
 transition: all 0.8s ease-in-out;
-
-
 }
 .topen .sdt-modal .sdt-inner {margin-top: 100px;}
-
-
-
-
 .sdt-content {padding: 20px;}
-
 .sdt-modal .sdt-inner .sdt-container {position: relative;}
 .sdt-modal .sdt-inner .sdt-container .sdt-close-btn {position: absolute;top: 5px; right: 10px;font-family: Arial!important; font-size: 25px; line-height: 25px;}
 
@@ -139,6 +131,3 @@ body .sdt-close-btn
 
 body .sdt-content a {font-weight: bold;}
 body .sdt-content a:hover {text-decoration: underline;}
-
-
-
