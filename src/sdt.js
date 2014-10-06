@@ -1,6 +1,7 @@
 // Glade Kettle of gladekettle.com.au, public domain. Forka forka, please! http://github.com/gkweb/
 // var now = new Date();
 function toggleClass(element, className){
+	console.log(element);
     if (!element || !className){
         return;
     }
@@ -27,14 +28,16 @@ console.log("click");
 
     window.onload = function(){
       var oBody = document.getElementsByTagName('body')[0]; 
-      var sdtM = document.getElementById("sdtmain");
+      var sdtM = document.getElementById("sdt-main");
       var sdtO = document.getElementById("sdtopen");
-      // var sdtM = document.getElementById("sdtmain");
-
-
+      var sdtB = document.getElementById("sdt-modal-close-btn");
+      
       sdtO.onclick = function () {
-      	console.log("click");
-      	toggleClass(sdtM,"topen");
+        toggleClass(oBody,"topen");
+      };
+
+      sdtB.onclick = function () {
+      	toggleClass(oBody,"topen");
       };
 
 
