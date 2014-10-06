@@ -1,15 +1,11 @@
 #STOP DATA RETENTION! Its WRONG!
 =================
-
 ##Simple embed code to help website owners protest the proposed new Australian Data Retention laws.
-
 ##Embedd on your own site using the below code: 
 
 ```
 
-		<!-- [BEGIN] Stop data retention embed here -->
-        
-        <!-- ========= Glade Kettle 2014 =========== -->
+	<!-- [BEGIN] Stop data retention embed here -->
         <!--
         Stop Data retention because its wrong!
         Author website: http://gladekettle.com.au 
