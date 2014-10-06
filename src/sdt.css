@@ -22,13 +22,6 @@
 
     .sdt-container {width: 940px; padding: 0 20px; margin: 0 auto; background: #fff;}
 
-        @media screen and (max-width: 980px) {
-            .sdt-container {width: 94%; padding: 0 3%;}
-        }
-
-
-
-
 /* ===== Recording animation ====== */
 
 .animated {
@@ -115,7 +108,7 @@ body .sdt-modal .sdt-inner {
 transition: all 0.8s ease-in-out;
 }
 .topen .sdt-modal .sdt-inner {margin-top: 100px;}
-.sdt-content {padding: 20px;}
+.sdt-content {padding: 20px;padding-bottom: 40px;}
 .sdt-modal .sdt-inner .sdt-container {position: relative;}
 .sdt-modal .sdt-inner .sdt-container .sdt-close-btn {position: absolute;top: 5px; right: 10px;font-family: Arial!important; font-size: 25px; line-height: 25px;}
 
@@ -131,3 +124,19 @@ body .sdt-close-btn
 
 body .sdt-content a {font-weight: bold;}
 body .sdt-content a:hover {text-decoration: underline;}
+
+
+/* ============ MOBILE ========== */
+
+
+@media screen and (max-width: 980px) {
+            .sdt-container {width: 94%; padding: 0 3%;}
+
+            .topen .sdt-modal .sdt-inner {margin-top: 10px;}
+
+        }
+
+
+
+
+
