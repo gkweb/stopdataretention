@@ -1,3 +1,4 @@
+body.topen {overflow-x: hidden;}
 .sdt-main {position: fixed; top: 0; bottom:0; left: 0;max-width:147px;}
 
 .sdt-content {}
@@ -20,7 +21,7 @@
 #sdtcnrtxt {position: absolute; top:0; left: 0;}
 
 
-    .sdt-container {width: 940px; padding: 0 20px; margin: 0 auto; background: #fff;}
+.sdt-container {width: 940px; padding: 0 20px; margin: 0 auto; background: #fff;}
 
 /* ===== Recording animation ====== */
 
