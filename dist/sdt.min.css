@@ -1,5 +1,5 @@
 .topen body{overflow-y:hidden;overflow-x:hidden}
-.sdt-main{position:fixed;top:0;left:0;max-width:147px;max-height:148px}
+.sdt-main{position:fixed;top:0;left:0;max-width:147px;max-height:148px;z-index:999}
 .sdt-cnr,.sdt-inner{position:relative}
 .sdt-main .sdt-cnr img.stretch{width:100%;height:auto}
 .sdt-main .sdt-cnr a{display:block;width:100%;height:100%;top:0;bottom:0;left:0;right:0;border:none;text-decoration:none}

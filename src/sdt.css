@@ -1,6 +1,6 @@
 .topen body {overflow-y: hidden;overflow-x: hidden;}
 
-.sdt-main {position: fixed; top: 0; left: 0;max-width:147px; max-height: 148px;}
+.sdt-main {position: fixed; top: 0; left: 0;max-width:147px; max-height: 148px;z-index:999;}
 
 .sdt-content {}
 .sdt-inner,
@@ -119,28 +119,19 @@ transition: all 0.8s ease-in-out;
 .topen .sdt-modal {display: block;padding: 0 10px;}
 
 /* ============ text styling ========== */
-
 body .sdt-content p {font-family: Times, serif; font-size: 18px;line-height: 20px;}
 body .sdt-content h1 {font-size: 30px; line-height: 35px; margin: 0;font-family: Times, serif;}
 body .sdt-content a,
 body .sdt-close-btn
   {color: #000; text-decoration: none;}
-
 body .sdt-content a {font-weight: bold;}
 body .sdt-content a:hover {text-decoration: underline;}
 
-
 /* ============ MOBILE ========== */
-
 
 @media screen and (max-width: 980px) {
             .sdt-container {width: 94%; padding: 0 3%;}
 
             .topen .sdt-modal .sdt-inner {margin-top: 10px;}
 
-        }
-
-
-
-
-
+}
